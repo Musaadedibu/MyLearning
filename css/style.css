@@ -1,5 +1,5 @@
 body {
-    background-color: #eeebd7;
+    background-color: #ccc7ab;
     font-family: Georgia,"Times New Roman",Times,serif;
     color: #333333;
     margin: 0; 
@@ -7,9 +7,7 @@ body {
 }
 
 header {
-    color: white;
     background-color: #333333;
-    text-align: center;
 }
 
 h1 {
@@ -24,7 +22,6 @@ h1 {
 
 h2 {
    font-size: 24px; 
-   text-align: left;
 }
 
 
@@ -39,7 +36,7 @@ h2 {
 }
 
 #bio-image {
-    width: 200px; 
+    width: 200px;
     height: 200px;
     margin-right: 15px;
 }
