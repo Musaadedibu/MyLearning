@@ -25,10 +25,9 @@ h2 {
 }
 
 
-.container {
+.bio-container {
     width: 1024px;
     margin: auto;
-
 }
 
 #main-bio, #contact-info , #bio-image {
