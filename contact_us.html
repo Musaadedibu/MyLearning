@@ -1,17 +1,48 @@
-<form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/bio-contact-form.css">
+    <title>Contact Us Form</title>
+</head>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message"></textarea><br><br>
+<body>
+        <div class="container">
+            <div class="row">
+                <h1> Contact Musa</h1>
+            </div>
+        </div>
+
+        <div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="dda0a8e5-4575-4d18-9cf9-df53b36a3819"/>   
     
-    <input type="submit" value="Submit Form">
-</form>
-
-<form action="https://api.web3forms.com/submit" method="POST">
-
-    <input type="hidden" name="access_key" value="dda0a8e5-4575-4d18-9cf9-df53b36a3819">
-</form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+          
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+          
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+    
+              <div class="h-captcha" data-captcha="true"></div>
+                <input class= "button" type="submit" value="Submit Form">
+                
+            </form>
+    
+            <script
+              src="https://web3forms.com/client/script.js"
+              async
+              defer
+            ></script>
+        
+        </div>
+    </div>
+</body>
+      
+</html>
+      
+</html>
